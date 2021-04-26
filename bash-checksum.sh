@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ "$#" == "0" ]
 then
-    echo error: requierd at least one parameter
+    echo error: at least one parameter required
     echo usage: $0 [file1] [file2] ...
     exit 1
 fi
